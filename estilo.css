@@ -1,0 +1,21 @@
+#cleiton{
+    color:red;
+}
+#cleber{
+    color:goldenrod;
+}
+
+.cleide{
+    color: blueviolet;
+}
+
+div p{
+    color:crimson;
+}
+
+img{
+   visibility: visible;
+}
+img:hover{
+    visibility: hidden;
+}
