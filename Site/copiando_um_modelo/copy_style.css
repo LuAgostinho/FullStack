@@ -1,0 +1,51 @@
+html{
+    background-color:aliceblue;
+}
+
+#C{
+    width: 400px;
+    height: 400px;
+}
+
+h1{
+    position: absolute;
+    display:inline;
+    left: 47%;
+    top: 1.5%;
+    font-size: 100pt;
+    color: darkgreen;
+}
+
+#Java{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left:94%;
+}
+
+#DivHead{
+    background-color: bisque;
+    border-style: solid;
+    border-color: blue;
+}
+
+#SubHeadDiv{
+    position:relative;
+    background-color: lightskyblue;
+    height: 3cm;
+    bottom:60px;
+}
+
+#SubHeadDiv{
+    color:brown;
+    position: relative;
+    font-size: 45pt;
+    top: 1px;
+}
+
+.SubHeadTxt{
+    position:   relative;
+    display: inline;
+    left: 45%;
+    top:20%;
+}
