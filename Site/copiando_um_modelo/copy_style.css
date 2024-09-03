@@ -46,6 +46,8 @@ h1{
 .SubHeadTxt{
     position:   relative;
     display: inline;
-    left: 45%;
+    left: 35%;
     top:20%;
+    margin-left: 5cm;
+    margin-right: 5cm;
 }
