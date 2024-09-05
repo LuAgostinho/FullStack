@@ -34,9 +34,6 @@ h1{
     background-color: lightskyblue;
     height: 3cm;
     bottom:60px;
-}
-
-#SubHeadDiv{
     color:brown;
     position: relative;
     font-size: 45pt;
@@ -62,7 +59,7 @@ h1{
     color: purple;
 }
 
-#HeaderLivros{
+h2{
     text-align: center;
     font-family: sans-serif;
     font-size: 60pt;
@@ -82,4 +79,11 @@ h1{
     text-align: center;
     font-family: sans-serif;
     font-size: 40pt;
+}
+
+.IframeBody{
+    margin-left: 2cm;
+    margin-right: 2cm;
+    height: 35cm;
+    width: 35cm;
 }
