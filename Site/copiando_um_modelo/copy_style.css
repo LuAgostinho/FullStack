@@ -129,3 +129,28 @@ ul{
 a{
     margin-left: 10cm;
 }
+
+#BottomDiv{
+    background-color:antiquewhite;
+    height: 450px;
+}
+
+#Html{
+    width: 400px;
+    height: 400px;
+}
+
+#BottomTxt{
+    position: relative;
+    display:inline;
+    left: 30%;
+    bottom: 25%;
+    font-size: 100pt;
+}
+
+#Css{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left:94%;
+}
