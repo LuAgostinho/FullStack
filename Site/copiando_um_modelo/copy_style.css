@@ -51,3 +51,35 @@ h1{
     margin-left: 5cm;
     margin-right: 5cm;
 }
+
+#BodyDiv{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40pt;
+}
+
+.BodyTxt{
+    color: purple;
+}
+
+#HeaderLivros{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 60pt;
+}
+
+#LivrosDiv{
+   text-align: center;
+}
+
+.LivrosImg{
+    margin-left: 5cm;
+    margin-right: 5cm;
+    height: 35cm;
+}
+
+#IframeDiv{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40pt;
+}
