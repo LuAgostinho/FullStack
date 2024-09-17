@@ -11,10 +11,14 @@
 #header{
     background-color: dimgray;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: center;
     font-size: 15px;
     color:darkgrey;
     height: 30px;
     flex-wrap: wrap;
     padding-top: 7px;
+}
+
+#header p{
+    padding-left: 70px;
 }
