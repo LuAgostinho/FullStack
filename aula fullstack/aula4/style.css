@@ -1,0 +1,17 @@
+.flex-container{
+    height: 400 px;
+    background-color: aquamarine;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: space-between;
+    align-items: flex-start;
+}
+
+.flex-container div{
+    background-color: bisque;
+    display:flex;
+    margin: 10px;
+    padding: 10px;
+}
