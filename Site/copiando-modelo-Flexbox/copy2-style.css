@@ -4,7 +4,6 @@
     border: 0;
     outline: 0;
     font-size: 100%;
-    vertical-align: baseline;
     background: transparent;
 }
 
@@ -22,3 +21,20 @@
 #header p{
     padding-left: 70px;
 }
+
+
+.SubHeader{
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    align-content: flex-end;
+}
+
+
+.imgSub{
+    justify-content: flex-start;
+}
+
