@@ -11,7 +11,7 @@
     background-color: dimgray;
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 90%;
     color:darkgrey;
     height: 30px;
     flex-wrap: wrap;
@@ -19,7 +19,7 @@
 }
 
 #header p{
-    padding-left: 70px;
+    padding-left: 2%;
 }
 
 .SubHeader{
@@ -35,7 +35,7 @@
 
 #TxtSub div{
     display: flex;
-    padding-right: 20px;
+    padding-right: 2%;
 }
 
 #ImgSub{
@@ -52,9 +52,9 @@
     color: white;
     height: 40px;
     align-items: center;
-    font-size: 12px;
-    padding-left: 100px;
-    padding-right: 100px;
+    font-size: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
     flex-wrap: wrap;
 }
 
@@ -63,7 +63,7 @@
     justify-content: center;
     align-items: flex-end;
     height: 165px;
-    font-size: 60px;
+    font-size: 350%;
     color:midnightblue;
 }
 
@@ -74,5 +74,125 @@
 }
 
 #ImgCenter img{
-    padding: 15px;
+    padding: 1%;
+}
+
+#DivProjetos{
+    display: flex;
+    justify-content:flex-start;
+    width: 50%;
+    padding-left:17%;
+    color:darkorange;
+    font-size: 200%;
+    padding-top:5%
+}
+
+#Subtitle{
+    display: flex;
+    justify-content:space-between;
+    width: 75%;
+    padding-left:17%;
+    flex-wrap: wrap;
+    padding-top: 3%;
+}
+
+#MainBody{
+    display: flex;
+    justify-content:flex-start;
+    width: 60%;
+    padding-left:17%;
+    padding-top:2%
+}
+
+#TxtBody{
+    padding-left: 2%;
+    padding-top: 2%
+}
+
+#TxtBody h1{
+    padding-bottom: 10%;
+    font-size: 200%;
+    color:navy;
+}
+
+#TxtBody p{
+    padding-bottom: 8%;
+    font-size: 110%;
+}
+
+#BarraAzul{
+    display: flex;
+    background-color:cornflowerblue;
+    width: 100%;
+    height: 100px;
+    margin-top: 5%;
+}
+
+#Footer1{
+    display: flex;
+    justify-content:space-evenly;
+    width: 50%;
+    padding-left:25%;
+    flex-wrap: wrap;
+    padding-top: 2%;
+    color:dimgrey;
+    align-items: flex-start;
+}
+
+#Footer2{
+    display: flex;
+    justify-content:center;
+    width: 50%;
+    padding-left:25%;
+    flex-wrap: wrap;
+    padding-top: 2%;
+    color:dimgray;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Footer2 h2{
+    color:black;
+}
+
+
+#Footer3{
+    display: flex;
+    justify-content:center;
+    width: 50%;
+    padding-left:25%;
+    flex-wrap: wrap;
+    padding-top: 2%;
+    color:dimgrey;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#Footer3 h2{
+    color:black;
+}
+
+#ROBOFEI{
+
+}
+
+#SaibaMais{
+
+}
+
+#Pesquisar{
+
+}
+
+#FaleConosco{
+
+}
+
+#WhastApp{
+
+}
+
+#AcessoRápido{
+
 }
