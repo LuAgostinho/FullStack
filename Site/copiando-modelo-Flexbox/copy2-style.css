@@ -15,26 +15,64 @@
     color:darkgrey;
     height: 30px;
     flex-wrap: wrap;
-    padding-top: 7px;
+    align-items: center;
 }
 
 #header p{
     padding-left: 70px;
 }
 
-
 .SubHeader{
     display: flex;
+}
+
+#TxtSub{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:60%;
+}
+
+#TxtSub div{
+    display: flex;
+    padding-right: 20px;
+}
+
+#ImgSub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+#SubHeader2{
+    background-color: midnightblue;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    height: 40px;
+    align-items: center;
+    font-size: 12px;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-wrap: wrap;
+}
+
+#TxtCursos{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 165px;
+    font-size: 60px;
+    color:midnightblue;
+}
+
+#ImgCenter{
+    display:flex;
+    justify-content: center;
     align-items: center;
 }
 
-.box{
-    display: flex;
-    align-content: flex-end;
+#ImgCenter img{
+    padding: 15px;
 }
-
-
-.imgSub{
-    justify-content: flex-start;
-}
-
