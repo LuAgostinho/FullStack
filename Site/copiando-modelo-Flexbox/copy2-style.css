@@ -30,7 +30,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width:60%;
+    width:70%;
 }
 
 #TxtSub div{
@@ -63,7 +63,7 @@
     justify-content: center;
     align-items: flex-end;
     height: 165px;
-    font-size: 350%;
+    font-size: 250%;
     color:midnightblue;
 }
 
@@ -75,6 +75,8 @@
 
 #ImgCenter img{
     padding: 1%;
+    width: 21%;
+    height: 21%;
 }
 
 #DivProjetos{
@@ -94,12 +96,13 @@
     padding-left:17%;
     flex-wrap: wrap;
     padding-top: 3%;
+    font-size: 85%;
 }
 
 #MainBody{
     display: flex;
     justify-content:flex-start;
-    width: 60%;
+    width: 70%;
     padding-left:17%;
     padding-top:2%
 }
@@ -109,15 +112,21 @@
     padding-top: 2%
 }
 
+#MainBody img{
+    width: 200%;
+    height: 200%;
+}
+
 #TxtBody h1{
     padding-bottom: 10%;
     font-size: 200%;
     color:navy;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #TxtBody p{
     padding-bottom: 8%;
-    font-size: 110%;
+    font-size: 105%;
 }
 
 #BarraAzul{
@@ -174,25 +183,65 @@
 }
 
 #ROBOFEI{
-
+    border-bottom: solid;
+    border-color:navy;
+    color: cornflowerblue;
+    padding-bottom: 1%;
 }
 
 #SaibaMais{
-
+    border: 2px solid;
+    color: navy;
+    width: 18%;
+    padding: 2%;
+    border-radius: 5px;
 }
 
 #Pesquisar{
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid;
+    color: navy;
+    width: 8%;
+    padding: 1%;
+    padding-left: 2%;
+    border-radius: 5px;
+    margin-right: 1%;
 
 }
 
 #FaleConosco{
-
+    display: flex;
+    justify-content: flex-end;
+    background-color:limegreen;
+    border-radius: 5px;
+    width: 11%;
+    padding: 1%;
+    border-radius: 5px;
+    margin-right: 1%;
+    color:ghostwhite;
 }
 
-#WhastApp{
-
+#WhatsApp{
+    display: flex;
+    justify-content: flex-end;
+    background-color:limegreen;
+    border-radius: 5px;
+    width: 10%;
+    padding: 1%;
+    border-radius: 5px;
+    margin-right: 1%;
+    color:ghostwhite;
 }
 
 #AcessoRápido{
-
+    display: flex;
+    justify-content: flex-end;
+    background-color:cornflowerblue;
+    border-radius: 5px;
+    width: 15%;
+    padding: 1%;
+    border-radius: 5px;
+    margin-right: 1%;
+    color:ghostwhite;
 }
