@@ -47,5 +47,11 @@ function cria_texto(cv, line, stroke, fill, x, y, txt, size){
 
 cria_quadrado(ctx, 'blue', 'blue', 0, 0, 75, 75)
 cria_quadrado(ctx, 'red', 'red', 425, 0, 75, 75)
-cria_linha(ctx, 2, 'blue', 75, 75, 225, 225)
-cria_linha(ctx, 2, 'red', 425, 75, 225, 225)
+cria_quadrado(ctx, 'cyan', 'cyan', 0, 200, 50, 50)
+cria_quadrado(ctx, 'cyan', 'cyan', 0, 250, 50, 50)
+cria_quadrado(ctx, 'cyan', 'cyan', 450, 225, 50,25)
+cria_quadrado(ctx, 'cyan', 'cyan', 450, 250, 50, 25)
+
+cria_linha(ctx, 2, 'blue', 75, 75, 250, 250)
+cria_linha(ctx, 2, 'red', 425, 75, 250, 250)
+cria_linha(ctx, 2, 'lawngreen', 0, 250, 500,250)
