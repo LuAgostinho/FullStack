@@ -9,7 +9,7 @@ function jogar(){
     }
     else if(num<num_ger && num>=0){
         document.getElementById("resp").innerHTML="Esse número é muito baixo!";
-        document.getElementById("resp").style.setProperty("background-color", "red");
+        document.getElementById("resp").style.setProperty("background-color", "aquamarine");
         if(lista_menor==""){
             lista_menor=num;
         }
@@ -17,11 +17,11 @@ function jogar(){
             lista_menor=lista_menor+" , "+num;
         }
         document.getElementById("lower").innerHTML=lista_menor;
-        document.getElementById("lower").style.setProperty("background-color", "grey");
+        document.getElementById("lower").style.setProperty("background-color", "red");
     }
     else if(num>num_ger && num<100){
         document.getElementById("resp").innerHTML="Esse número é muito alto!";
-        document.getElementById("resp").style.setProperty("background-color", "red");
+        document.getElementById("resp").style.setProperty("background-color", "aquamarine");
         if(lista_maior==""){
             lista_maior=num;
         }
@@ -29,6 +29,6 @@ function jogar(){
             lista_maior=lista_maior+" , "+num;
         }
         document.getElementById("higher").innerHTML=lista_maior;
-        document.getElementById("higher").style.setProperty("background-color", "grey");
+        document.getElementById("higher").style.setProperty("background-color", "red");
     }
 }
