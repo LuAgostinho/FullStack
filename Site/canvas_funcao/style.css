@@ -1,8 +1,18 @@
+html{
+    background-color: antiquewhite;
+}
+
 #canvas{
     border: solid black;
+    background-color: white;
 }
 
 #canvas2{
     background-color: aquamarine;
     border: solid white;
+}
+
+div{
+    display: flex;
+    justify-content: center;
 }
