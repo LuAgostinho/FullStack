@@ -1,0 +1,22 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "Criando um servidor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuAgostinho/aprendendo_ros2.git"
+  },
+  "author": "Lucas Agostinho Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuAgostinho/aprendendo_ros2/issues"
+  },
+  "homepage": "https://github.com/LuAgostinho/aprendendo_ros2#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}

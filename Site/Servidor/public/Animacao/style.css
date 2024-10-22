@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+#canvas{
+    background-color: black;
+    border: 2px double white;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
