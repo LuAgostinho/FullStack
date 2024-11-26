@@ -18,3 +18,4 @@ server.listen(80);
 //Mensagem exibida no console para debug
 console.log("Servidor rodando...");
 
+const uri = `mongodb+srv://Lucas:Kc0Ptv2CHyid5qja@lucas.oi98t.mongodb.net/?retryWrites=true&w=majority&appName=Lucas`
