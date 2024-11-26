@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+  <a href="/listar_usuarios">Listar</a>
+    
+  <a href="/usuarios/cadastro.html">Cadastro</a>
+  <a href="/usuarios/atualizacao.html">Mudar senha</a>
+  <a href="/usuarios/remocao.html">Remoção</a>
+
+  <h2>Lista de usuários atual:</h2>
+  
+  <%for (var i = 0; i < usuarios.length; i++){%>
+  <div>
+    <p>Nome: <%= usuarios[i].db_nome %></p>
+    <p>Login: <%= usuarios[i].db_login %></p>
+    <p>Senha: <%= usuarios[i].db_senha %></p>
+    <br>
+  </div>
+  <%}%>
+  
+  
+</body>
+</html>
