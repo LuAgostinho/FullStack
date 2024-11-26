@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"></meta>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="central">
+            <h1>Adivinhação</h1>
+            <p>Foi selecionado um número de <span class="bold">0 a 99</span> você vai digitar qual número acredita ser e depois vai apertar o botão <span class="bold">JOGAR</span>.</p>
+            <p>Insira um número: <input type="number" id="i"></p>
+            <input type="button" value="JOGAR" onclick="jogar()" id="jogo">
+            <div id="resp" class="bold"></div>
+            <p>N° abaixo do selecionado:</p>
+            <div id="lower" class="bold"></div>
+            <p>N° acima do selecionado:</p>
+            <div id="higher" class="bold"></div>
+        </div>
+    </body>
+    <script src="script.js" type="text/javascript"></script> 
+</html>

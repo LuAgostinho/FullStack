@@ -1,0 +1,156 @@
+html{
+    background-color:aliceblue;
+}
+
+#C{
+    width: 400px;
+    height: 400px;
+}
+
+h1{
+    position: absolute;
+    display:inline;
+    left: 47%;
+    top: 1.5%;
+    font-size: 100pt;
+    color: darkgreen;
+}
+
+#Java{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left:94%;
+}
+
+#DivHead{
+    background-color: bisque;
+    border-style: solid;
+    border-color: blue;
+}
+
+#SubHeadDiv{
+    position:relative;
+    background-color: lightskyblue;
+    height: 3cm;
+    bottom:60px;
+    color:darkred;
+    position: relative;
+    font-size: 45pt;
+    top: 1px;
+}
+
+.SubHeadTxt{
+    position:   relative;
+    display: inline;
+    left: 35%;
+    top:20%;
+    margin-left: 5cm;
+    margin-right: 5cm;
+}
+
+#BodyDiv{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40pt;
+}
+
+.BodyTxt{
+    color: indigo;
+}
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 60pt;
+}
+
+#LivrosDiv{
+   text-align: center;
+}
+
+.LivrosImg{
+    margin-left: 5cm;
+    margin-right: 5cm;
+    height: 35cm;
+}
+
+#IframeDiv{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40pt;
+}
+
+.IframeBody{
+    margin-left: 2cm;
+    margin-right: 2cm;
+    height: 35cm;
+    width: 35cm;
+}
+
+table{
+    position: relative;
+    font-family: sans-serif;
+    font-size: 40pt;
+    border-color: red;
+    border-style: dashed;
+    text-align: center;
+    left:40.5%;
+}
+
+td{
+    border-color: red;
+    border-style:double;
+    padding: 6mm;
+}
+
+th{
+    color: red;
+    border-color: red;
+    border-style:double;
+    padding: 6mm;
+}
+
+#SiteDiv{
+    position: relative;;
+    font-family: sans-serif;
+    font-size: 40pt;
+    background-color:yellow;
+    width: 50cm;
+    height: 8cm;
+    left:36.5%;
+}
+
+ul{
+    position: relative;
+    left: 7%;
+}
+
+a{
+    margin-left: 10cm;
+}
+
+#BottomDiv{
+    background-color:antiquewhite;
+    height: 450px;
+}
+
+#Html{
+    width: 400px;
+    height: 400px;
+}
+
+#BottomTxt{
+    position: relative;
+    display:inline;
+    left: 30%;
+    bottom: 25%;
+    font-size: 100pt;
+}
+
+#Css{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left:94%;
+}
